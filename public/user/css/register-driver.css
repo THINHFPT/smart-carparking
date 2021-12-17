@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #a1a19f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #regForm {
+    background-color: #f8f7f7;
+    margin: 100px auto;
+    padding: 40px;
+    width: 1000px;
+    min-width: 300px;
+    height: 550px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color:#333333 
+  }
+  
+  input {
+    margin-top: 15px;
+    border-radius: 7px;
+    height:50px;
+    width: 400px;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+    margin-left: 260px;
+    border-color: black;
+    color:rgb(20, 20, 20);
+  }
+  select{
+    margin-top: 15px;
+    border-radius: 7px;
+    height:50px;
+    width: 400px;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+    margin-left: 260px;
+    border-color: black;
+    color:rgb(107, 107, 107);
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #c81515;
+  }
+  
+  /* Hide all steps by default: */
+  
+  
+  .press button {
+    background-color: #575858;
+    color: #fdfcfc;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height:40px;
+    overflow-y: hidden;
+    font-size: 17px;
+    cursor: pointer;
+  
+  }
+  .press{
+    margin: 30px 260px 0px 560px;
+    width:50px;
+    height:30px;
+    color:white;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  
+ 
+  
+  /* Make circles that indicate the steps of the form: */
+  
+  
+  
